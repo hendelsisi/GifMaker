@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="start" translatesAutoresizingMaskIntoConstraints="NO" id="4kR-Rb-ghv"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_screen_logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="m9e-Vf-5ws">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="219" id="BY3-AY-rQz"/>
+                                    <constraint firstAttribute="width" constant="240" id="cVW-Hb-zQ9"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="m9e-Vf-5ws" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="8SN-11-Czr"/>
+                            <constraint firstItem="4kR-Rb-ghv" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" id="Cea-bq-cez"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="4kR-Rb-ghv" secondAttribute="bottom" id="NgD-Pq-Kdb"/>
+                            <constraint firstItem="m9e-Vf-5ws" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="O1j-xc-C02"/>
+                            <constraint firstAttribute="trailing" secondItem="4kR-Rb-ghv" secondAttribute="trailing" id="cEO-hM-UAH"/>
+                            <constraint firstItem="4kR-Rb-ghv" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="wXj-SI-2d3"/>
+                        </constraints>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="480"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="46.875" y="372.88732394366195"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splash_screen_logo-1" width="745" height="1097"/>
+        <image name="start" width="375" height="667"/>
+    </resources>
+</document>

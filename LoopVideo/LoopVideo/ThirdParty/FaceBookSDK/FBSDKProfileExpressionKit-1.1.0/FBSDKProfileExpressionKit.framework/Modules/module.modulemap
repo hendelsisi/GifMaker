@@ -1,0 +1,6 @@
+framework module FBSDKProfileExpressionKit {
+    umbrella header "FBSDKProfileExpressionKit.h"
+
+    export *
+    module * { export * }
+}
